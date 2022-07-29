@@ -1,0 +1,55 @@
+# depslib dependency file v1.0
+1659125480 source:f:\head first design patterns\strategy\main.cpp
+	"Duck.h"
+	"MallardDuck.h"
+	<memory>
+	"ModelDuck.h"
+	"MuteDuck.h"
+
+1659124685 f:\head first design patterns\strategy\include\duck.h
+	<iostream>
+	<memory.h>
+	"FlyBehaviour.h"
+	"QuackBehaviour.h"
+	<memory>
+
+1659123604 f:\head first design patterns\strategy\include\flybehaviour.h
+
+1659123661 f:\head first design patterns\strategy\include\quackbehaviour.h
+
+1659124372 f:\head first design patterns\strategy\include\mallardduck.h
+	"Quack.h"
+	"FlyWithWings.h"
+	"Duck.h"
+	<iostream>
+	<memory>
+
+1659123999 f:\head first design patterns\strategy\include\quack.h
+	<iostream>
+	"QuackBehaviour.h"
+
+1659123937 f:\head first design patterns\strategy\include\flywithwings.h
+	"FlyBehaviour.h"
+	<iostream>
+
+1659125088 f:\head first design patterns\strategy\include\modelduck.h
+	"Duck.h"
+	"FlyNoWay.h"
+	"Quack.h"
+	<iostream>
+
+1659124834 f:\head first design patterns\strategy\include\flynoway.h
+	<iostream>
+	"FlyBehaviour.h"
+
+1659125643 f:\head first design patterns\strategy\include\muteduck.h
+	"Duck.h"
+	"FlyNoWay.h"
+	"QuackMute.h"
+	<iostream>
+	<memory>
+
+1659125314 f:\head first design patterns\strategy\include\quackmute.h
+	<iostream>
+	"QuackBehaviour.h"
+
