@@ -1,0 +1,50 @@
+# depslib dependency file v1.0
+1659249629 source:f:\head first design patterns\head-first-design-patterns\observer\main.cpp
+	"WeatherData.h"
+	"CurrentConditionDisplay.h"
+	<iostream>
+	<memory>
+	"StatisticsDisplay.h"
+	"ForecastDisplay.h"
+	"HeatIndex.h"
+
+1659248271 f:\head first design patterns\head-first-design-patterns\observer\include\weatherdata.h
+	"Subject.h"
+	"Observer.h"
+	<list>
+
+1659244963 f:\head first design patterns\head-first-design-patterns\observer\include\subject.h
+	"Observer.h"
+
+1659244997 f:\head first design patterns\head-first-design-patterns\observer\include\observer.h
+
+1659248702 f:\head first design patterns\head-first-design-patterns\observer\include\currentconditiondisplay.h
+	"Observer.h"
+	"Subject.h"
+	<iostream>
+	<memory>
+	"DisplayElement.h"
+
+1659245044 f:\head first design patterns\head-first-design-patterns\observer\include\displayelement.h
+
+1659248773 f:\head first design patterns\head-first-design-patterns\observer\include\statisticsdisplay.h
+	"Observer.h"
+	"Subject.h"
+	<iostream>
+	<memory>
+	"DisplayElement.h"
+
+1659249330 f:\head first design patterns\head-first-design-patterns\observer\include\forecastdisplay.h
+	"Observer.h"
+	"Subject.h"
+	<iostream>
+	<memory>
+	"DisplayElement.h"
+
+1659249620 f:\head first design patterns\head-first-design-patterns\observer\include\heatindex.h
+	"Observer.h"
+	"Subject.h"
+	<iostream>
+	<memory>
+	"DisplayElement.h"
+
