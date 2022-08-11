@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1660053926 source:f:\head first design patterns\head-first-design-patterns\decorator\main.cpp
+	<iostream>
+	"Beverage.h"
+	"Espresso.h"
+	"Mocha.h"
+
+1660055672 f:\head first design patterns\head-first-design-patterns\decorator\include\beverage.h
+	<string>
+
+1660053238 f:\head first design patterns\head-first-design-patterns\decorator\include\espresso.h
+	"Beverage.h"
+
+1660055606 f:\head first design patterns\head-first-design-patterns\decorator\include\mocha.h
+	"CondimentDecorator.h"
+	"Beverage.h"
+	<string>
+
+1660055686 f:\head first design patterns\head-first-design-patterns\decorator\include\condimentdecorator.h
+	"Beverage.h"
+	<string>
+
