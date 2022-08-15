@@ -2,28 +2,26 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6" />
 	<Project>
-		<Option title="SimpleFactory" />
+		<Option title="FactoryMethod" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
 		<Build>
 			<Target title="Debug">
-				<Option output="bin/Debug/SimpleFactory" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Debug/FactoryMethod" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Debug/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
-					<Add directory="include" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
-				<Option output="bin/Release/SimpleFactory" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Release/FactoryMethod" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Release/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-O2" />
-					<Add directory="include" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -34,12 +32,6 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="include/CheesePizza.h" />
-		<Unit filename="include/ClamPizza.h" />
-		<Unit filename="include/PepperoniPizza.h" />
-		<Unit filename="include/Pizza.h" />
-		<Unit filename="include/PizzaStore.h" />
-		<Unit filename="include/SimpleFactory.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
