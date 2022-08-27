@@ -1,0 +1,44 @@
+#ifndef CEILINGFANOFFCOMMAND_H
+#define CEILINGFANOFFCOMMAND_H
+
+#include "Command.h"
+#include "CeilingFan.h"
+#include <string>
+class CeilingFanOffCommand : public Command
+{
+    public:
+		CeilingFanOffCommand(CeilingFan *cf) : ceilingFan(cf) { }
+		void execute() override {
+			prevSpeed = ceilingFan->getSpeed();
+            ceilingFan->off();
+		}
+		void undo() override {
+		switch (prevSpeed) {
+		case CeilingFan::Speed::HIGH:
+			ceilingFan->high();
+			break;
+		case CeilingFan::Speed::MEDIUM:
+			ceilingFan->medium();
+			break;
+		case CeilingFan::Speed::LOW:
+			ceilingFan->low();
+			break;
+		case CeilingFan::Speed::OFF:
+			ceilingFan->off();
+			break;
+		default:
+			break;
+	}
+
+		}
+		std::string getClassName() const override { return className; }
+
+    protected:
+
+    private:
+		CeilingFan *ceilingFan;
+		CeilingFan::Speed prevSpeed;
+		std::string className = "CeilingFanOffCommand";
+};
+
+#endif // CEILINGFANOFFCOMMAND_H

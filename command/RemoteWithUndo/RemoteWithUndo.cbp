@@ -2,12 +2,12 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6" />
 	<Project>
-		<Option title="simpleRemote" />
+		<Option title="RemoteWithUndo" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
 		<Build>
 			<Target title="Debug">
-				<Option output="bin/Debug/simpleRemote" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Debug/RemoteWithUndo" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Debug/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
@@ -17,7 +17,7 @@
 				</Compiler>
 			</Target>
 			<Target title="Release">
-				<Option output="bin/Release/simpleRemote" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Release/RemoteWithUndo" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Release/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
@@ -34,12 +34,17 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="include/CeilingFan.h" />
+		<Unit filename="include/CeilingFanHighCommand.h" />
+		<Unit filename="include/CeilingFanLowComand.h" />
+		<Unit filename="include/CeilingFanMediumCommand.h" />
+		<Unit filename="include/CeilingFanOffCommand.h" />
 		<Unit filename="include/Command.h" />
-		<Unit filename="include/GarageDoor.h" />
-		<Unit filename="include/GarageUpCommand.h" />
 		<Unit filename="include/Light.h" />
+		<Unit filename="include/LightOffCommand.h" />
 		<Unit filename="include/LightOnCommand.h" />
-		<Unit filename="include/SimpleRemote.h" />
+		<Unit filename="include/NoCommand.h" />
+		<Unit filename="include/RemoteWithUndo.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
