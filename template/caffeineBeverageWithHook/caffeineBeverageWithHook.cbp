@@ -2,28 +2,26 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6" />
 	<Project>
-		<Option title="SimpleAdaptor" />
+		<Option title="caffeineBeverageWithHook" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
 		<Build>
 			<Target title="Debug">
-				<Option output="bin/Debug/SimpleAdaptor" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Debug/caffeineBeverageWithHook" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Debug/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
-					<Add directory="include" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
-				<Option output="bin/Release/SimpleAdaptor" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Release/caffeineBeverageWithHook" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Release/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-O2" />
-					<Add directory="include" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -34,11 +32,6 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="include/Duck.h" />
-		<Unit filename="include/MallardDuck.h" />
-		<Unit filename="include/Turkey.h" />
-		<Unit filename="include/TurkeyAdaptor.h" />
-		<Unit filename="include/WildTurkey.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />

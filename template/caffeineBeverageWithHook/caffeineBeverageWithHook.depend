@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1661956703 source:f:\head first design patterns\head-first-design-patterns\template\caffeinebeveragewithhook\main.cpp
+	<iostream>
+	"CoffeWithHook.h"
+	"TeaWithHook.h"
+
+1661956027 f:\head first design patterns\head-first-design-patterns\template\caffeinebeveragewithhook\include\coffewithhook.h
+	"CaffeineBeverageWithHook.h"
+	<cctype>
+	"istream"
+	<iostream>
+	<string>
+
+1661956247 f:\head first design patterns\head-first-design-patterns\template\caffeinebeveragewithhook\include\caffeinebeveragewithhook.h
+
+1661956733 f:\head first design patterns\head-first-design-patterns\template\caffeinebeveragewithhook\include\teawithhook.h
+	"CaffeineBeverageWithHook.h"
+	<cctype>
+	"istream"
+	<iostream>
+	<string>
+
