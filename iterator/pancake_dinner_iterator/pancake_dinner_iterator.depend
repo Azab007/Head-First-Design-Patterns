@@ -1,0 +1,50 @@
+# depslib dependency file v1.0
+1662292947 source:f:\head first design patterns\head-first-design-patterns\iterator\pancake_dinner_iterator\main.cpp
+	<iostream>
+	"DinerMenu.h"
+	"PancakeHouseMenu.h"
+	"Waitress.h"
+
+1662291303 f:\head first design patterns\head-first-design-patterns\iterator\pancake_dinner_iterator\include\dinermenu.h
+	"DinerMenuIterator.h"
+	"MenuItem.h"
+	<array>
+	<iostream>
+	<memory>
+	<ostream>
+	<string>
+
+1662294534 f:\head first design patterns\head-first-design-patterns\iterator\pancake_dinner_iterator\include\dinermenuiterator.h
+	"Iterator.h"
+	"MenuItem.h"
+	<array>
+
+1662291762 f:\head first design patterns\head-first-design-patterns\iterator\pancake_dinner_iterator\include\iterator.h
+
+1662291667 f:\head first design patterns\head-first-design-patterns\iterator\pancake_dinner_iterator\include\menuitem.h
+	<string>
+	<ostream>
+
+1662291360 f:\head first design patterns\head-first-design-patterns\iterator\pancake_dinner_iterator\include\pancakehousemenu.h
+	"MenuItem.h"
+	"PancakeHouseMenuIterator.h"
+	<list>
+	<ostream>
+	<memory>
+	<string>
+
+1662293661 f:\head first design patterns\head-first-design-patterns\iterator\pancake_dinner_iterator\include\pancakehousemenuiterator.h
+	"Iterator.h"
+	"MenuItem.h"
+	<list>
+	<vector>
+
+1662292911 f:\head first design patterns\head-first-design-patterns\iterator\pancake_dinner_iterator\include\waitress.h
+	"DinerMenu.h"
+	"DinerMenuIterator.h"
+	"Iterator.h"
+	"PancakeHouseMenu.h"
+	"PancakeHouseMenuIterator.h"
+	<iostream>
+	<memory>
+
