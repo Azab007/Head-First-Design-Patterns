@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1662382291 source:f:\head first design patterns\head-first-design-patterns\composite\menu\main.cpp
+	"Menu.h"
+	"MenuComponent.h"
+	"MenuItem.h"
+	"Waitress.h"
+	<vector>
+
+1662381998 f:\head first design patterns\head-first-design-patterns\composite\menu\include\menu.h
+	"MenuComponent.h"
+	<iostream>
+	<string>
+	<string_view>
+	<list>
+
+1662381357 f:\head first design patterns\head-first-design-patterns\composite\menu\include\menucomponent.h
+	<stdexcept>
+	<list>
+
+1662381746 f:\head first design patterns\head-first-design-patterns\composite\menu\include\menuitem.h
+	"MenuComponent.h"
+	<string>
+	<iostream>
+	<string_view>
+
+1662382301 f:\head first design patterns\head-first-design-patterns\composite\menu\include\waitress.h
+	"MenuComponent.h"
+
